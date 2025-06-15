@@ -1,0 +1,63 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Bytecode
+*.pyc
+
+# Virtual Environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# pip environment files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints
+
+# === IDEs and Editors ===
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs and local files ===
+*.log
+*.sqlite3
+
+# === Environment variable files ===
+.env
+.env.*
+
+# === Test output ===
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.cache/
+pytest_cache/
+
+# === MyPy and Pylint ===
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# === Build artifacts ===
+build/
+dist/
+*.egg-info/
+.eggs/
